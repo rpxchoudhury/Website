@@ -3,9 +3,15 @@
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-      
+    letter-spacing: .8px;
 }
 
 .page-wrapper{
     display: flex;
+    max-width: 1500px;
+    justify-content: center;
+    justify-content: space-evenly;
+    height:100vh;
+    padding: 50px;
+    flex-wrap: wrap;
 }
