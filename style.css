@@ -5,10 +5,12 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: .4px;
 }
+
 .page-wrapper{
     display: flex;
     max-width: 1200px;
     justify-content: space-evenly;
+    justify-content: center;
     height:100vh;
     padding: 50px;
     flex-wrap: wrap;
@@ -16,37 +18,39 @@
     align-items: center;
     align-content: center;
 }
+
 .profile-pic{
     max-width: 50%;
     height: auto;
 }
+
 .side1 {
     flex: 1 0 50%;
     padding-right: 10px;
     border-right-width: 1px;
-    display: flex;
-    flex-direction: column;
 }
+
 .side2 {
     flex: 1 0 50%;
-    flex-direction: column;
-    display: flex;
-    padding-left: 10px;
 }
+
 .wrapper{
     margin-bottom: 20px;
-    width: 100%;
 }
+
 h1{
     margin-bottom: 5px;
     font-size: 30px;
 }
+
 h2{
     font-size: 30px;
 }
+
 li{
     list-style: none;
 }
+
 p{
     line-height: 1.1em;
     font-size: 18px;
@@ -59,12 +63,10 @@ a{
     .profile-pic{
         width: 75%;
     }
+
     .side1,.side2{
         flex: 1 1 100%;
         padding: 10px 0;
-        border-right: none;
     }
-    .page-wrapper{
-        flex-direction: column;
-    }
+
 }
