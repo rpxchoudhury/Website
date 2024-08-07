@@ -25,13 +25,15 @@
 }
 
 .side1 {
-    flex: 1 0 50%;
+    flex: 1;
     padding-right: 10px;
     border-right-width: 1px;
+    min-width: 300px;
 }
 
 .side2 {
-    flex: 1 0 50%;
+    flex: 1;
+    min-width: 300px;
 }
 
 .wrapper{
@@ -65,9 +67,8 @@ a{
     }
 
     .side1,.side2{
-        width: 100%;
-        padding: 10px;
-        border-right: none;
+        width: 50%;
+        flex-shrink: 0;
     }
     h1,h2{
         font-size: 1.25em;
@@ -76,7 +77,8 @@ a{
     p,a{
         font-size: 16px;
     }
-    .wrapper{
-        padding: 5px;
+    .page-wrapper{
+        flex-wrap: nowrap;
+        overflow-x: auto;
     }
 }
