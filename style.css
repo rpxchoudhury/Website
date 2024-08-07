@@ -50,7 +50,8 @@ a{
 
 }
 @media(max-width:900px){
-    .page-wrapper, .side1, .side2{
-        width: 90%;
+    .profile-pic{
+        width: 200px;
+        height: 200px;
     }
 }
