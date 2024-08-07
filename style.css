@@ -32,10 +32,13 @@
 
 .side2 {
     flex: 1 0 50%;
+    flex-direction: column;
+    display: flex;
 }
 
 .wrapper{
     margin-bottom: 20px;
+    width: 100%;
 }
 
 h1{
@@ -67,6 +70,10 @@ a{
     .side1,.side2{
         flex: 1 1 100%;
         padding: 10px 0;
+        border-right: none;
+    }
+    .page-wrapper{
+        flex-direction: column;
     }
 
 }
