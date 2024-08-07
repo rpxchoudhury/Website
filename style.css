@@ -61,24 +61,15 @@ a{
     font-size: 14px;
 
 }
-@media(max-width:768px){
-    .profile-pic{
-        width: 75%;
+@media (max-width: 480px) {
+    .page-wrapper {
+        flex-wrap: nowrap; /* Keep elements in a single line */
+        overflow-x: auto; /* Enable horizontal scrolling */
+        width: 100%; /* Full width to accommodate inner elements */
     }
-
-    .side1,.side2{
-        width: 50%;
-        flex-shrink: 0;
-    }
-    h1,h2{
-        font-size: 1.25em;
-    }
-
-    p,a{
-        font-size: 16px;
-    }
-    .page-wrapper{
-        flex-wrap: nowrap;
-        overflow-x: auto;
+    .side1, .side2 {
+        width: 50%; /* Force each side to take up only half of the viewport width */
+        min-width: 320px; /* Minimum width to maintain layout integrity */
+        box-sizing: border-box; /* Include padding and border in the element's width */
     }
 }
