@@ -34,38 +34,28 @@
     margin-bottom: 20px;
     width: 100%;
 }
-
 h1{
     margin-bottom: 5px;
-    font-size: 30px;
     font-size: 26px;
 }
 
 h2{
-    font-size: 30px;
     font-size: 26px;
 }
-
 li{
     list-style: none;
 }
-
 p{
     line-height: 1.1em;
-    font-size: 18px;
     font-size: 16px;
 }
 a{
-    font-size: 16px;
     font-size: 14px;
-
 }
 @media(max-width:900px){
     .profile-pic{
-        width: 75%;
         width: 80%;
     }
-
     .side1,.side2{
         flex: 1 1 100%;
         padding: 10px 0;
