@@ -17,8 +17,8 @@
 }
 
 .profile-pic{
-    width:20px;
-    height:20px;
+    width: 300px;
+    height: 300px;
 }
 
 .side2{
@@ -27,4 +27,18 @@
 
 .wrapper{
     margin-bottom: 15px;
+}
+
+h1{
+    margin-bottom: 5px;
+}
+
+li{
+    list-style: none;
+}
+
+@media(max-width:900px){
+    .page-wrapper, .side1, .side2{
+        width: 90%;
+    }
 }
