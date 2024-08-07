@@ -52,6 +52,6 @@ a{
 @media(max-width:900px){
     .profile-pic{
         width: 200px;
-        height: 200px;
+        height: auto;
     }
 }
