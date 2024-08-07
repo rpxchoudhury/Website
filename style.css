@@ -9,13 +9,10 @@
     display: flex;
     max-width: 1200px;
     justify-content: space-evenly;
-    justify-content: center;
     height:100vh;
     padding: 50px;
     flex-wrap: wrap;
     margin: auto;
-    align-items: center;
-    align-content: center;
 }
 .profile-pic{
     max-width: 50%;
