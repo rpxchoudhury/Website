@@ -63,13 +63,24 @@ a{
 }
 @media (max-width: 480px) {
     .page-wrapper {
-        flex-wrap: nowrap; /* Keep elements in a single line */
-        overflow-x: auto; /* Enable horizontal scrolling */
-        width: 100%; /* Full width to accommodate inner elements */
+        flex-wrap: nowrap;
+        overflow-x: auto;
+        width: 100%;
     }
     .side1, .side2 {
-        width: 50%; /* Force each side to take up only half of the viewport width */
-        min-width: 320px; /* Minimum width to maintain layout integrity */
-        box-sizing: border-box; /* Include padding and border in the element's width */
+        width: 50%; 
+        min-width: 320px; 
+        box-sizing: border-box;
+        align-items: center;
+        flex: 0 0 50%;
+    }
+    .wrapper{
+        margin: 0;
+        padding: 0 10px;
+    }
+
+    .profile-pic{
+        width: 100%;
+        height: auto;
     }
 }
