@@ -61,7 +61,5 @@ a{
     .profile-pic{
         width: 100%;
     }
-    .side1, .side2{
-        flex: 1 1 100%;
-    }
+
 }
