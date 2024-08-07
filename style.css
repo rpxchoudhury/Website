@@ -5,7 +5,6 @@
     font-family: 'Roboto', sans-serif;
     letter-spacing: .4px;
 }
-
 .page-wrapper{
     display: flex;
     max-width: 1200px;
@@ -15,28 +14,22 @@
     padding: 50px;
     flex-wrap: wrap;
     margin: auto;
-    align-items: flex-start;
-    align-content: flex-start;
-    overflow: hidden;
+    align-items: center;
+    align-content: center;
 }
-
 .profile-pic{
     max-width: 50%;
     height: auto;
 }
-
 .side1 {
     flex: 1 0 50%;
     padding-right: 10px;
     border-right-width: 1px;
-    flex-direction: column;
 }
-
 .side2 {
     flex-direction: column;
     display: flex;
 }
-
 .wrapper{
     margin-bottom: 20px;
     width: 100%;
@@ -44,10 +37,12 @@
 
 h1{
     margin-bottom: 5px;
+    font-size: 30px;
     font-size: 26px;
 }
 
 h2{
+    font-size: 30px;
     font-size: 26px;
 }
 
@@ -57,17 +52,17 @@ li{
 
 p{
     line-height: 1.1em;
+    font-size: 18px;
     font-size: 16px;
 }
 a{
+    font-size: 16px;
     font-size: 14px;
 
 }
 @media(max-width:900px){
-    body{
-        font-size: 14px;
-    }
     .profile-pic{
+        width: 75%;
         width: 80%;
     }
 
@@ -78,13 +73,5 @@ a{
     }
     .page-wrapper{
         flex-direction: column;
-        padding: 20px;
     }
-    h1,h2{
-        font-size: 24px;
-    }
-    p,a{
-        font-size: 16px;
-    }
-
 }
