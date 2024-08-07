@@ -15,3 +15,8 @@
     padding: 50px;
     flex-wrap: wrap;
 }
+
+.profile-pic{
+    width:200px;
+    height:200px;
+}
