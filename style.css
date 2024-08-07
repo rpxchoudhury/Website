@@ -22,7 +22,7 @@
 }
 
 .side2{
-    width: 40%
+    width: 60%
 }
 
 .wrapper{
@@ -31,12 +31,24 @@
 
 h1{
     margin-bottom: 5px;
+    font-size: 24px;
+}
+
+h2{
+    font-size: 24px;
 }
 
 li{
     list-style: none;
 }
+p{
+    line-height: 1.3em;
+    font-size: 13px;
+}
+a{
+    font-size: 13px;
 
+}
 @media(max-width:900px){
     .page-wrapper, .side1, .side2{
         width: 90%;
