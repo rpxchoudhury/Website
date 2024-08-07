@@ -21,13 +21,11 @@
 }
 
 .side1{
-    flex: 1;
     padding-right: 10px;
     border-right: 2px;
 }
 
 .side2{
-    flex: 1;
     padding-left: 10px;
 }
 
