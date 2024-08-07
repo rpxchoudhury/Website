@@ -71,16 +71,5 @@ a{
         width: 50%; 
         min-width: 320px; 
         box-sizing: border-box;
-        align-items: center;
-        flex: 0 0 50%;
-    }
-    .wrapper{
-        margin: 0;
-        padding: 0 10px;
-    }
-
-    .profile-pic{
-        width: 100%;
-        height: auto;
     }
 }
