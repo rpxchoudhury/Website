@@ -9,7 +9,6 @@
     display: flex;
     max-width: 1200px;
     justify-content: space-evenly;
-    justify-content: center;
     height:100vh;
     padding: 50px;
     flex-wrap: wrap;
@@ -25,10 +24,14 @@
     flex: 1 0 50%;
     padding-right: 10px;
     border-right-width: 1px;
+    display: flex;
+    flex-direction: column;
 }
 .side2 {
+    flex: 1 0 50%;
     flex-direction: column;
     display: flex;
+    padding-left: 10px;
 }
 .wrapper{
     margin-bottom: 20px;
@@ -50,7 +53,6 @@ p{
 }
 a{
     font-size: 14px;
-    font-size: 16px;
 
 }
 @media(max-width:900px){
