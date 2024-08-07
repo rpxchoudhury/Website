@@ -59,14 +59,24 @@ a{
     font-size: 14px;
 
 }
-@media(max-width:900px){
+@media(max-width:768px){
     .profile-pic{
         width: 75%;
     }
 
     .side1,.side2{
-        flex: 1 1 100%;
-        padding: 10px 0;
+        width: 100%;
+        padding: 10px;
+        border-right: none;
+    }
+    h1,h2{
+        font-size: 1.25em;
     }
 
+    p,a{
+        font-size: 16px;
+    }
+    .wrapper{
+        padding: 5px;
+    }
 }
