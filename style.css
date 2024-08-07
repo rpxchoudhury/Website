@@ -9,7 +9,6 @@
 .page-wrapper{
     display: flex;
     max-width: 1500px;
-    
     justify-content: space-evenly;
     height:100vh;
     padding: 50px;
@@ -17,12 +16,19 @@
 }
 
 .profile-pic{
-    width: 200px;
+    max-width: 100%;
     height: auto;
 }
 
-.side1, .side2{
+.side1{
     flex: 1;
+    padding-right: 20px;
+    border-right: 2px;
+}
+
+.side2{
+    flex: 1;
+    padding-left: 20px;
 }
 
 .wrapper{
@@ -41,9 +47,10 @@ h2{
 li{
     list-style: none;
 }
+
 p{
-    line-height: 1.3em;
-    font-size: 12px;
+    line-height: 1.1em;
+    font-size: 14px;
 }
 a{
     font-size: 12px;
